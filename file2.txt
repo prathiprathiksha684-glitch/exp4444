@@ -1,0 +1,14 @@
+# Clone forked repo
+git clone https://github.com/your-username/repository-name.git
+
+cd repository-name
+
+# Create branch
+git checkout -b feature-branch
+
+# Make changes → then:
+git add .
+git commit -m "my changes"
+
+# Push to your fork
+git push origin feature-branch
